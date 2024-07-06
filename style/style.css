@@ -15,6 +15,16 @@
 .header{
     background-image: url();
 }
+.saction-tytle{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(255, 17, 17);
+}
+.saction-description{
+    font-size: 18px;
+    color: blue;
+    font-weight: bold;
+}
 /* nav style */
 nav{
     display: flex;
@@ -41,6 +51,9 @@ nav li a{
 .dark-2{
     color: blueviolet;
 }
+.secondary-bg{
+    background-color: #f2f6f6;
+}
 .btn-primary{
     background-color: #FD6E0A;
     font-weight: bold;
@@ -49,6 +62,10 @@ nav li a{
     font-size: 20px;
     border-radius: 5px;
     border: none;
+}
+main{
+    max-width: 1140px;
+    margin: 0px auto;
 }
 /* Banner stytle */
 .banner{
@@ -71,4 +88,22 @@ nav li a{
 .banner-pic{
     width: 500px;
     height: 800px;
+}
+/* about style */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+.about-discription{
+    font-weight: bold;
+}
+.about-tytle{
+    color: #733406;
 }
