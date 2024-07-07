@@ -175,3 +175,33 @@ resumy hr{
 .resumy button{
     margin-top: 60px;
 }
+/* Footer style */
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+}
+.section-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.section-ttytle{
+    font-size: 33px;
+
+}
+.footer-colamn{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    color: #733406;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 15px;
+}
