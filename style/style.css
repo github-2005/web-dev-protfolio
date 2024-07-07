@@ -11,6 +11,13 @@
 .text-primary{
     color: #FD6E0A;
 }
+.text-center{
+    text-align: center;
+   
+}
+.skills{
+    padding: 130px 150px;
+}
 /* Header */
 .header{
     background-image: url();
@@ -62,10 +69,18 @@ nav li a{
     font-size: 20px;
     border-radius: 5px;
     border: none;
+    
 }
+
+
+
 main{
     max-width: 1140px;
     margin: 0px auto;
+}
+main saction{
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 /* Banner stytle */
 .banner{
@@ -106,4 +121,57 @@ main{
 }
 .about-tytle{
     color: #733406;
+}
+/* skill section */
+.skills-conteinar{
+    display: flex;
+    gap: 24px;
+    
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgb(218, 215, 215);
+}
+/* resume-section */
+.section-tytle{
+    text-align: center;
+    font-size:40px ;
+}
+
+.resume-container{
+    display: flex ;
+    gap: 24px;
+}
+.resumy-tytle{
+    font-size: 25px;
+    margin-top: 8px;
+   
+}
+.resume-colamn-tytle{
+    font-size: 33px;
+}
+
+.resumy-sub-tytle{
+    color: #733406;
+    font-size: 20px;
+    font-weight: 600;
+   margin-top: 5px;
+}
+
+.Expeience-description{
+    color: #733406;
+    font-weight: 400;
+    margin-top: 20px;
+    
+}
+resumy hr{
+    margin: 30px;
+}
+.resumy button{
+    margin-top: 60px;
 }
